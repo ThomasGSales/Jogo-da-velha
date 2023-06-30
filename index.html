@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Jogo da velha</h1>
+    </div>
+
+    <div class="inputs">
+        <div>
+            <label for="Player1">Player 1</label>
+            <input id="Player1" placeholder="nome do jogador X">
+        </div>
+        <div>
+            <label for="Player2">Player 2</label>
+            <input id="Player2" placeholder="nome do jogador O">
+        </div>
+    </div>
+
+    <div class="painel">
+        <button id="start">Iniciar</button>
+        <h2>Vez de: <span id="turnPlayer"></span></h2>
+    </div>
+
+    <div class="gameContainer">
+        <div class="gameBoard">
+            <span class="cursor" data-region="0.0"></span>
+            <span class="cursor" data-region="0.1"></span>
+            <span class="cursor" data-region="0.2"></span>
+
+            <span class="cursor" data-region="1.0"></span>
+            <span class="cursor" data-region="1.1"></span>
+            <span class="cursor" data-region="1.2"></span>
+
+            <span class="cursor" data-region="2.0"></span>
+            <span class="cursor" data-region="2.1"></span>
+            <span class="cursor" data-region="2.2"></span>
+        </div>
+    </div>
+</body>
+</html>
